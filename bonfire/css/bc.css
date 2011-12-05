@@ -1,0 +1,33 @@
+/* Breadcrumb Styles
+ ---------------------------------------------------------------------*/
+
+.breadCrumb
+{
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: block;
+	height: 24px;
+	padding:12px 0 12px 0;
+	overflow: hidden;
+}
+.breadCrumb ul
+{
+	margin: 0;
+	padding: 0;
+	height: 24px;
+	display: block;
+}
+.breadCrumb ul li
+{
+	display: block;
+	float: left;
+	position: relative;
+	height: 24px;
+	overflow: hidden;
+	line-height: 24px;
+	margin: 0px 6px 0px 0;
+	padding: 0px 12px 0px 0;
+	font-size: 1em;
+	background: url(/images/breadcrumb/Chevron.gif) no-repeat 100% 0;
+}

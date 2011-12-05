@@ -1,0 +1,77 @@
+/* Admin CSS */
+.tableleft {
+	margin-bottom: 24px;
+	text-align: left;
+}
+.tablecenter {
+	margin-bottom:24px;
+	text-align:center;
+}
+#uibuttons{
+	margin-bottom:24px;
+	text-align:center;
+	}
+table
+{
+	border-collapse: collapse;
+	width:100%;
+	border-spacing: 0;
+	display: table;
+}
+colgroup {
+	display: table-column-group;
+}
+table td {
+	border-bottom: 1px solid rgb(218,218,218);
+	height: 23px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+table tr:last-child td{
+	border-bottom:0;
+	height: 24px;
+}
+table tr:first-child td{
+	border-top:0;
+	height:24px;
+}
+table td:first-child{
+	border-right:1px solid rgb(218,218,218);
+}
+td, th {
+	display: table-cell;
+}
+table tr:hover {
+	background: #eee;
+}
+.tablecenter tr:first-child:hover {
+	background: none;
+}
+tbody{
+	display: table-row-group;
+}
+ul.ulthumb {
+	float: left;
+	list-style: none;
+	margin: 0; padding: 0;
+	width: 436px;
+}
+ul.ulthumb li {
+	margin: 0 24px 24px 0; padding: 0;
+	float: left;
+	position: relative;  /* Set the absolute positioning base coordinate */
+	width: 68px;
+	height: 48px;
+	
+}
+ul.ulthumb li img {
+	width: 64px; height: 44px; /* Set the small thumbnail size */
+	-ms-interpolation-mode: bicubic; /* IE Fix for Bicubic Scaling */
+	border: 1px solid rgb(218,218,218);
+	padding: 1px;
+	position: absolute;
+	left: 0; top: 0;
+}
+ul.ulthumb li img.hover {
+	border: none; /* Get rid of border on hover */
+}
